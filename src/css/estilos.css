@@ -4,11 +4,11 @@
 }
 
 html {
-    background: url(../images/bg-mobile.svg) var(--principal-color) no-repeat ;
-    background-size: contain;
     font-family: 'open sans', sans-serif;
     height: 100vh;
     font-size: 62.5%;
+    background: url(../images/bg-mobile.svg) var(--principal-color) no-repeat ;
+    background-size: contain;
 }
 
 body {

@@ -5,27 +5,27 @@
     }
 
     body {
-        padding: 80px 100px 20px;
+        padding: 60px 60px 0px;
     }
     
     header {
-        min-height: 95px;
+        min-height: 50px;
     }
 
     .logo img{
-        width: 250px;
+        width: 200px;
         margin: auto 0 auto;
     }
 
     main {
-        margin-top: 20px;
+        margin-top: 60px;
         display: flex;
 
         gap:90px;
     }
 
     .image-box {
-        width: 1200px;
+        width: 1000px;
     }
 
     .main-info-box {
@@ -38,26 +38,26 @@
     }
 
     .main-info-box h1 {
-        margin-top: 90px;
+        margin-top: 40px;
 
         text-align: start;
 
-        font-size: 5.2rem;
+        font-size: 4.2rem;
         font-weight: 700;
     }
 
     .main-info-box p {
-        font-size: 2.1rem;
+        font-size: 1.7rem;
 
         font-weight: 500;
     }
 
     .main-info-box a button {
-        height: 60px;
-        width: 250px;
+        height: 50px;
+        width: 160px;
         border-radius: 50px;
     
-        font-size: 2.3rem;
+        font-size: 1.6rem;
         font-weight: 600;
 
         transition: 0.2s ease-in-out;
@@ -65,16 +65,17 @@
 
     footer {
         justify-content: flex-end;
+        min-height: 80px;
     }
 
     footer .icons {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
 
         border-width: 3px;
     }
 
     footer .icons i {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
