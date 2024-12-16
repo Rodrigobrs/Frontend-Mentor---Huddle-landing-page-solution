@@ -1,0 +1,113 @@
+:root {
+    --principal-color:hsl(257, 40%, 49%);
+    --secondary-color:hsl(300, 69%, 71%);
+}
+
+html {
+    background: url(../images/bg-mobile.svg) var(--principal-color) no-repeat ;
+    background-size: contain;
+    font-family: 'open sans', sans-serif;
+    height: 100vh;
+    font-size: 62.5%;
+}
+
+body {
+    padding: 40px;
+}
+
+header {
+    min-height: 100px;
+}
+
+.logo img{
+    width: 150px;
+    margin: auto 0;
+}
+
+.image-box {
+    margin-bottom: 30px;
+}
+
+.image-box img {
+    width: 100%;
+}
+
+.main-info-box {
+    text-align: center;
+}
+
+.main-info-box h1 {
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+
+    margin-bottom: 20px;
+}
+
+.main-info-box p {
+    color: #fff;
+    font-size: 1.8rem;
+
+    margin-bottom: 30px;
+}
+
+.main-info-box a button {
+    height: 50px;
+    width: 230px;
+    border-radius: 50px;
+    border: none;
+
+    font-size: 1.7rem;
+
+    color: var(--principal-color);
+    background-color: #fff;
+
+    margin-bottom: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+.main-info-box a button:hover {
+    color: #fff;
+
+    cursor: pointer;
+
+    background-color: var(--secondary-color);
+}
+
+footer {
+    min-width: 345px;
+    min-height: 110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .icons {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: #fff solid 1px;
+    border-radius: 50px;
+
+    margin: 0 5px;
+}
+
+footer .icons  i {
+    font-size: 2rem;
+
+    color: #fff;
+}
+
+footer .icons:hover {
+    border-color: var(--secondary-color);
+}
+
+footer .icons:hover i {
+    color: var(--secondary-color);
+}
